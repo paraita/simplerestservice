@@ -8,5 +8,5 @@ The image provides the following APIs:
 To start the `linecounter` services, simply use:
 
 ```
-docker run --rm -it -p 5000:5000 -e SERVICE=linecounter paraita/simplestrestservice:latest
+docker run --rm -it -p 5000:5000 -e SERVICE=linecounter paraita/simplerestservice
 ```
