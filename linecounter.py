@@ -35,7 +35,7 @@ class LineCounter(Resource):
 class ServiceName(Resource):
     def get(self):
         return {
-            'service_name': 'WordCounter',
+            'service_name': 'LineCounter',
             'hostname': socket.gethostname(),
             'nb_requests': len(requests_list)
         }
