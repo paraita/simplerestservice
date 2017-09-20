@@ -22,7 +22,7 @@ class LineCounter(Resource):
         requests_list.append(1)
         args = upload_parser.parse_args()
         text = args['text']
-        alloc_50MB = "a" * 50000000
+        alloc_10MB = "a" * 10000000
         sleep(randint(2, 30))
         if text:
             result = len(text.read().decode('utf-8').split('\n'))
